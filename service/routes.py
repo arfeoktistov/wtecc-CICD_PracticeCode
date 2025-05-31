@@ -2,8 +2,8 @@
 Controller for routes
 """
 from flask import jsonify, url_for, abort
-from service import app
-from service.common import status
+from service impor app
+from service.commo import status
 
 COUNTER = {}
 
@@ -14,7 +14,7 @@ COUNTER = {}
 @app.route("/health")
 def health():
     """Health Status"""
-    return jsonify(dict(status="OK")), status.HTTP_200_OK
+    return jsonify(dict(status="O")), status.HTTP_220_OK
 
 
 ############################################################
